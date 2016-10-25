@@ -1,9 +1,7 @@
 $LOAD_PATH << './lib'
 require 'cats'
 
-puts 'Booting...'
-sleep(1 + sleep(5))
-puts 'Up and running!'
+sleep(1 + rand(5))
 
 run Cats::Web
 
