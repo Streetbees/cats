@@ -1,4 +1,5 @@
-require 'sinatra'
+require 'sinatra/base'
+require 'sinatra/json'
 require 'net/http'
 
 module Cats
@@ -9,7 +10,7 @@ module Cats
     end
 
     get '/' do
-      return Net::HTTP.get_response(settings.url)['location']
+      json url: Net::HTTP.get_response(settings.url)['location']
     end
 
   end
