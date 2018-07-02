@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'sinatra', '1.4.7'
-gem 'sinatra-contrib', '1.4.7'
-gem 'puma', '3.6.0'
+gem 'puma', '3.11.4'
+gem 'sinatra', '2.0.3'
+gem 'sinatra-contrib', '2.0.3'
