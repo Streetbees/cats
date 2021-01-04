@@ -15,4 +15,3 @@ Defaults to `1`.
 ## Running it
 
 If you're bundling the gems, use `bundle exec puma`; otherwise, `puma` is enough.
-
